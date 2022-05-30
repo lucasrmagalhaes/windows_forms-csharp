@@ -16,3 +16,10 @@
 **Na arquitetura do .NET Framework, qual é a camada mais inferior, que faz acesso direto à plataforma Windows?** <br>
 Common Language Runtime <br>
 Acessa diretamente a plataforma Windows.
+
+**Quais são as características que compõem um projeto em Windows Forms usando C#?**
+- Idiomas: C#
+- Plataformas: Windows
+- Tipos de projeto: Área de Trabalho
+
+Estas são as características que estão associadas a um projeto Windows Forms em C#.
