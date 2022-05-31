@@ -28,3 +28,8 @@ Estas são as características que estão associadas a um projeto Windows Forms 
 - Text
 
 Esta é a propriedade que está associada ao título da janela.
+
+**Porque devemos criar um padrão para nomear componentes em um projeto Windows Forms?**
+- Para melhor entendimento do programa, mas sem uma regra pré-definida para o padrão
+
+O uso dos padrões melhora o entendimento do programa durante uma manutenção ou expansão, seja por você, que fez o programa, seja por outra pessoa do time de desenvolvimento. Mas este padrão não possui uma regra, o time de desenvolvimento é quem o especifica.
