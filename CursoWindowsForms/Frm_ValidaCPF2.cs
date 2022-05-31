@@ -12,24 +12,39 @@ namespace CursoWindowsForms
 
         private void Btn_Valida_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Você deseja realmente validar o CPF?", "Mensagem de Validação",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            string vConteudo;
+
+            vConteudo = Msk_CPF.Text;
+            vConteudo = vConteudo.Replace(".", "").Replace("-", "");
+            vConteudo = vConteudo.Trim();
+
+            if (vConteudo == "")
             {
-                bool validaCPF = false;
-
-                validaCPF = Cls_Uteis.ValidaCPF(Msk_CPF.Text);
-
-                if (validaCPF == true)
+                MessageBox.Show("Informe um CPF", "Mensagem de Validação",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            } else
+            {
+                if (MessageBox.Show("Você deseja realmente validar o CPF?", "Mensagem de Validação",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    MessageBox.Show("CPF Válido!", "Mensagem de Validação",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("CPF Inválido!", "Mensagem de Validação",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    bool validaCPF = false;
+
+                    validaCPF = Cls_Uteis.ValidaCPF(Msk_CPF.Text);
+
+                    if (validaCPF == true)
+                    {
+                        MessageBox.Show("CPF Válido!", "Mensagem de Validação",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("CPF Inválido!", "Mensagem de Validação",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
+
+ 
 
             Msk_CPF.Text = "";
         }
