@@ -31,6 +31,7 @@
             this.lbl_Titulo = new System.Windows.Forms.Label();
             this.Btn_Sair = new System.Windows.Forms.Button();
             this.Btn_ModificaLabel = new System.Windows.Forms.Button();
+            this.Txt_ConteudoLabel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_Titulo
@@ -64,12 +65,20 @@
             this.Btn_ModificaLabel.UseVisualStyleBackColor = true;
             this.Btn_ModificaLabel.Click += new System.EventHandler(this.Btn_ModificaLabel_Click);
             // 
+            // Txt_ConteudoLabel
+            // 
+            this.Txt_ConteudoLabel.Location = new System.Drawing.Point(16, 108);
+            this.Txt_ConteudoLabel.Name = "Txt_ConteudoLabel";
+            this.Txt_ConteudoLabel.Size = new System.Drawing.Size(379, 20);
+            this.Txt_ConteudoLabel.TabIndex = 3;
+            // 
             // Frm_HelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(564, 367);
+            this.Controls.Add(this.Txt_ConteudoLabel);
             this.Controls.Add(this.Btn_ModificaLabel);
             this.Controls.Add(this.Btn_Sair);
             this.Controls.Add(this.lbl_Titulo);
@@ -86,6 +95,7 @@
         private System.Windows.Forms.Label lbl_Titulo;
         private System.Windows.Forms.Button Btn_Sair;
         private System.Windows.Forms.Button Btn_ModificaLabel;
+        private System.Windows.Forms.TextBox Txt_ConteudoLabel;
     }
 }
 
