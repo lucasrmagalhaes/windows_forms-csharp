@@ -31,13 +31,14 @@
             this.Txt_Senha = new System.Windows.Forms.TextBox();
             this.Lbl_Resultado = new System.Windows.Forms.Label();
             this.Btn_Reset = new System.Windows.Forms.Button();
-            this.Btn_Valida = new System.Windows.Forms.Button();
+            this.Btn_VerSenha = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Txt_Senha
             // 
             this.Txt_Senha.Location = new System.Drawing.Point(12, 45);
             this.Txt_Senha.Name = "Txt_Senha";
+            this.Txt_Senha.PasswordChar = '*';
             this.Txt_Senha.Size = new System.Drawing.Size(218, 20);
             this.Txt_Senha.TabIndex = 0;
             this.Txt_Senha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Senha_KeyDown);
@@ -61,21 +62,22 @@
             this.Btn_Reset.UseVisualStyleBackColor = true;
             this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
             // 
-            // Btn_Valida
+            // Btn_VerSenha
             // 
-            this.Btn_Valida.Location = new System.Drawing.Point(245, 71);
-            this.Btn_Valida.Name = "Btn_Valida";
-            this.Btn_Valida.Size = new System.Drawing.Size(111, 23);
-            this.Btn_Valida.TabIndex = 3;
-            this.Btn_Valida.Text = "Valida";
-            this.Btn_Valida.UseVisualStyleBackColor = true;
+            this.Btn_VerSenha.Location = new System.Drawing.Point(245, 71);
+            this.Btn_VerSenha.Name = "Btn_VerSenha";
+            this.Btn_VerSenha.Size = new System.Drawing.Size(111, 23);
+            this.Btn_VerSenha.TabIndex = 3;
+            this.Btn_VerSenha.Text = "Ver Senha";
+            this.Btn_VerSenha.UseVisualStyleBackColor = true;
+            this.Btn_VerSenha.Click += new System.EventHandler(this.Btn_VerSenha_Click);
             // 
             // Frm_ValidaSenha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(368, 154);
-            this.Controls.Add(this.Btn_Valida);
+            this.Controls.Add(this.Btn_VerSenha);
             this.Controls.Add(this.Btn_Reset);
             this.Controls.Add(this.Lbl_Resultado);
             this.Controls.Add(this.Txt_Senha);
@@ -92,6 +94,6 @@
         private System.Windows.Forms.TextBox Txt_Senha;
         private System.Windows.Forms.Label Lbl_Resultado;
         private System.Windows.Forms.Button Btn_Reset;
-        private System.Windows.Forms.Button Btn_Valida;
+        private System.Windows.Forms.Button Btn_VerSenha;
     }
 }
