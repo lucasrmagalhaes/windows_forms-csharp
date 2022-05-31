@@ -88,3 +88,9 @@ Esta é a forma mais correta de copiar um formulário.
 - Porque esta função vai poder ser usada por todos os formulários e facilitar a manutenção
 
 Esta é razão de usar as funções em uma classe.
+
+**Tenho uma caixa de diálogo que possui o botão AbortRetryIgnore. Se o usuário clicar no botão Abort, como eu verifico se esse botão foi clicado?**
+- if (MessageBox(<Parametro do MessageBox>) == DialogResult.Abort)
+
+É usando o DialogResult que identificamos o botão que foi clicado. Temos que comparar esta constante com o resultado da função MessageBox.
+
