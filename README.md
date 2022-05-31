@@ -23,3 +23,6 @@ Acessa diretamente a plataforma Windows.
 - Tipos de projeto: Área de Trabalho
 
 Estas são as características que estão associadas a um projeto Windows Forms em C#.
+
+**No projeto de Windows Forms, qual é a propriedade que está associada ao título da janela?**
+- Text
