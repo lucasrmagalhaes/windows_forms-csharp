@@ -83,3 +83,8 @@ A máscara já testa se digitamos até 10 números, sem precisar complementar co
 - Copiando o conteúdo da rotina InitializeComponent do formulário
 
 Esta é a forma mais correta de copiar um formulário.
+
+**Porque é mais produtivo criar uma classe de funções para usar uma função específica?**
+- Porque esta função vai poder ser usada por todos os formulários e facilitar a manutenção
+
+Esta é razão de usar as funções em uma classe.
