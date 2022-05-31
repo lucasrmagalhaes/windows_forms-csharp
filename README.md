@@ -68,3 +68,13 @@ Este é o módulo do .NET Framework para manipular expressões regulares.
 - Txt_Senha.PasswordChar = '\0';
 
 É com este símbolo que retiramos a supressão do caractere que esconde a senha.
+
+**Em um computador configurado com o idioma português, qual seria a máscara para eu ter uma data no formato YYYY.MM.DD (separados por pontos)?**
+- 0000,00,00
+
+Como o computador é em português, se eu colocar a vírgula, ele vai encarar como o separador de milhar, logo ele vai colocar o valor como 0000.00.00.
+
+**Tenho que validar, em uma caixa de texto com máscara, a digitação de até 10 números. Construo a máscara 0000000000, mas, também, quero validar que não posso digitar letras. O que mais eu devo fazer?**
+- Não é necessário fazer nada
+
+A máscara já testa se digitamos até 10 números, sem precisar complementar com nada mais.
