@@ -94,3 +94,7 @@ Esta é razão de usar as funções em uma classe.
 
 É usando o DialogResult que identificamos o botão que foi clicado. Temos que comparar esta constante com o resultado da função MessageBox.
 
+**Qual o evento que tenho que executar para abrir um formulário a partir de um clique de um botão?**
+- .ShowDialog();
+
+Este é o evento que devemos chamar para abrir um formulário a partir do clique de um botão.
