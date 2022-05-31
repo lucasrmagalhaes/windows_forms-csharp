@@ -98,3 +98,7 @@ Esta é razão de usar as funções em uma classe.
 - .ShowDialog();
 
 Este é o evento que devemos chamar para abrir um formulário a partir do clique de um botão.
+
+**Sobre a adição de ícones (arquivos .ico) em um formulário e imagens (arquivos .png) em um botão, selecione as alternativas corretas:**
+- Para adicionar ícones, usamos a propriedades Icon, de um formulário
+- Para adicionar imagens, usamos a propriedades Image, de um botão
