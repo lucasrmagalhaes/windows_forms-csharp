@@ -48,3 +48,8 @@ O uso dos padrões melhora o entendimento do programa durante uma manutenção o
 - .Text
 
 Esta é a propriedade que retorna o conteúdo do TextBox.
+
+**Qual a propriedade que modifica a posição do componente no formulário?**
+- Location
+
+Esta é a propriedade que configura a posição do componente no formulário.
