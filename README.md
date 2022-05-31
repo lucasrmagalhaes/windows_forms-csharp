@@ -38,3 +38,8 @@ O uso dos padrões melhora o entendimento do programa durante uma manutenção o
 - Na janela Propriedades, no botão Eventos
 
 É aqui que os eventos de um componente podem ser visualizados.
+
+**Qual é o processo que desenha, na prática, os componentes de um formulário?**
+- A execução do InitializeComponent quando a classe do formulário é instanciada
+
+É no InitializeComponent que as classes são desenhadas no formulário, no momento que o Form é instanciado.
