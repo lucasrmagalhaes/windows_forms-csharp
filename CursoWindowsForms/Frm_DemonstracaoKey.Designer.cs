@@ -43,6 +43,7 @@
             this.Txt_Input.Name = "Txt_Input";
             this.Txt_Input.Size = new System.Drawing.Size(100, 20);
             this.Txt_Input.TabIndex = 0;
+            this.Txt_Input.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Input_KeyDown);
             // 
             // Txt_Msg
             // 
@@ -62,6 +63,7 @@
             this.Btn_Reset.TabIndex = 2;
             this.Btn_Reset.Text = "Limpa";
             this.Btn_Reset.UseVisualStyleBackColor = true;
+            this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
             // 
             // Lbl_Minus
             // 
@@ -112,7 +114,6 @@
             this.Name = "Frm_DemonstracaoKey";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Demonstração Evento Key";
-            this.Load += new System.EventHandler(this.Frm_DemonstracaoKey_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
