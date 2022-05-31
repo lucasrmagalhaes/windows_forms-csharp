@@ -26,3 +26,5 @@ Estas são as características que estão associadas a um projeto Windows Forms 
 
 **No projeto de Windows Forms, qual é a propriedade que está associada ao título da janela?**
 - Text
+
+Esta é a propriedade que está associada ao título da janela.
