@@ -58,3 +58,8 @@ Esta é a propriedade que configura a posição do componente no formulário.
 - No programa inicial
 
 Nas propriedades do projeto, definimos o programa principal do projeto. E é dentro do código do programa inicial que especificamos o formulário padrão.
+
+**Para classificar a senha, tivemos que adicionar um código que manipula expressões regulares. Para aceitar a manipulação de expressões regulares, que módulo do .NET tivemos que referenciar no projeto?**
+- System.Text.RegularExpressions
+
+Este é o módulo do .NET Framework para manipular expressões regulares.
