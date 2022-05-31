@@ -63,3 +63,8 @@ Nas propriedades do projeto, definimos o programa principal do projeto. E é den
 - System.Text.RegularExpressions
 
 Este é o módulo do .NET Framework para manipular expressões regulares.
+
+**Como represento, a nível de código, a retirada do caractere que suprime o texto digitado, quando incluímos a senha no TextBox?**
+- Txt_Senha.PasswordChar = '\0';
+
+É com este símbolo que retiramos a supressão do caractere que esconde a senha.
