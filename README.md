@@ -43,3 +43,8 @@ O uso dos padrões melhora o entendimento do programa durante uma manutenção o
 - A execução do InitializeComponent quando a classe do formulário é instanciada
 
 É no InitializeComponent que as classes são desenhadas no formulário, no momento que o Form é instanciado.
+
+**Qual a propriedade do TextBox que retorna o conteúdo do que foi digitado nele?**
+- .Text
+
+Esta é a propriedade que retorna o conteúdo do TextBox.
