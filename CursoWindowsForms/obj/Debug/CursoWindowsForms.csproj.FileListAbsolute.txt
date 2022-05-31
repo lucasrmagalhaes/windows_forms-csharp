@@ -14,3 +14,4 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWin
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Mascara.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF2.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal.resources
