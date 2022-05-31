@@ -53,3 +53,8 @@ Esta é a propriedade que retorna o conteúdo do TextBox.
 - Location
 
 Esta é a propriedade que configura a posição do componente no formulário.
+
+**Onde especificamos o formulário padrão do projeto?**
+- No programa inicial
+
+Nas propriedades do projeto, definimos o programa principal do projeto. E é dentro do código do programa inicial que especificamos o formulário padrão.
