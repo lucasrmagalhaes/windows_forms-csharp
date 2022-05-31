@@ -33,3 +33,8 @@ Esta é a propriedade que está associada ao título da janela.
 - Para melhor entendimento do programa, mas sem uma regra pré-definida para o padrão
 
 O uso dos padrões melhora o entendimento do programa durante uma manutenção ou expansão, seja por você, que fez o programa, seja por outra pessoa do time de desenvolvimento. Mas este padrão não possui uma regra, o time de desenvolvimento é quem o especifica.
+
+**Em que local nós podemos ver todos os eventos de um componente?**
+- Na janela Propriedades, no botão Eventos
+
+É aqui que os eventos de um componente podem ser visualizados.
