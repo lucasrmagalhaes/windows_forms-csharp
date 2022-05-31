@@ -78,3 +78,8 @@ Como o computador é em português, se eu colocar a vírgula, ele vai encarar co
 - Não é necessário fazer nada
 
 A máscara já testa se digitamos até 10 números, sem precisar complementar com nada mais.
+
+**Como nós podemos copiar formulários?**
+- Copiando o conteúdo da rotina InitializeComponent do formulário
+
+Esta é a forma mais correta de copiar um formulário.
