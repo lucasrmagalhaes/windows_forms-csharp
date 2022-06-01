@@ -107,3 +107,8 @@ Este é o evento que devemos chamar para abrir um formulário a partir do clique
 - Associamos o ícone nas propriedades do projeto
 
 É desta maneira que associamos um ícone ao projeto.
+
+**Qual a extensão do arquivo que representa uma solução do Visual Studio?**
+- .sln
+
+Esta é a extensão que representa uma solução do Visual Studio.
