@@ -142,3 +142,8 @@ Este é o evento que representa a escolha da opção do menu.
 - .Show
 
 Este é o método correto para abrir um formulário e permitir que outros também sejam abertos.
+
+**Sobre formulários User Control, selecione a alternativa verdadeira:**
+- Eles têm os mesmos componentes de um formulário Windows Forms
+
+Tanto é que, na aula, copiamos todos os componentes de um formulário Windows Forms para um User Control.
