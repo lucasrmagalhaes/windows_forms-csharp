@@ -98,6 +98,12 @@
     <Compile Include="Frm_Principal_Menu.Designer.cs">
       <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Principal_Menu_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal_Menu_MDI.Designer.cs">
+      <DependentUpon>Frm_Principal_Menu_MDI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formulários - Curso 01\Frm_DemonstracaoKey.resx">
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal_Menu.resx">
       <DependentUpon>Frm_Principal_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal_Menu_MDI.resx">
+      <DependentUpon>Frm_Principal_Menu_MDI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
