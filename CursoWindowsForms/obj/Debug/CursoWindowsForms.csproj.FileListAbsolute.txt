@@ -20,3 +20,5 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\bin\Debug\CursoWin
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu_MDI.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_HelloWorld_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu_UC.resources
