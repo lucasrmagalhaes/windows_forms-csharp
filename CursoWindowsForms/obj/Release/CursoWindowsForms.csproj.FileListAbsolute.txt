@@ -18,3 +18,12 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoW
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\bin\Release\CursoWindowsFormsBiblioteca.dll
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\bin\Release\CursoWindowsFormsBiblioteca.pdb
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CopyComplete
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ArquivoImagem_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_DemonstracaoKey_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_HelloWorld_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Login.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal_Menu.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal_Menu_MDI.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal_Menu_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Questao.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF2_UC.resources

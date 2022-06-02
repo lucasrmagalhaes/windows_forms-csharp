@@ -34,7 +34,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <ApplicationIcon>Imagens\Frm_Principal.ico</ApplicationIcon>
+    <ApplicationIcon>Frm_Principal.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formulários - Curso 01\Frm_DemonstracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,28 +68,28 @@
     <Compile Include="Formulários - Curso 01\Frm_Mascara.Designer.cs">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ArquivoImagem_UC.cs">
+    <Compile Include="Formulários - Curso 02\Frm_ArquivoImagem_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Frm_ArquivoImagem_UC.Designer.cs">
+    <Compile Include="Formulários - Curso 02\Frm_ArquivoImagem_UC.Designer.cs">
       <DependentUpon>Frm_ArquivoImagem_UC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_DemonstracaoKey_UC.cs">
+    <Compile Include="Formulários - Curso 02\Frm_DemonstracaoKey_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Frm_DemonstracaoKey_UC.Designer.cs">
+    <Compile Include="Formulários - Curso 02\Frm_DemonstracaoKey_UC.Designer.cs">
       <DependentUpon>Frm_DemonstracaoKey_UC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_HelloWorld_UC.cs">
+    <Compile Include="Formulários - Curso 02\Frm_HelloWorld_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Frm_HelloWorld_UC.Designer.cs">
+    <Compile Include="Formulários - Curso 02\Frm_HelloWorld_UC.Designer.cs">
       <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Login.cs">
+    <Compile Include="Formulários - Curso 02\Frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Login.Designer.cs">
+    <Compile Include="Formulários - Curso 02\Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Principal.cs">
@@ -140,16 +134,16 @@
     <Compile Include="Frm_Principal_Menu_UC.Designer.cs">
       <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Questao.cs">
+    <Compile Include="Formulários - Curso 02\Frm_Questao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Questao.Designer.cs">
+    <Compile Include="Formulários - Curso 02\Frm_Questao.Designer.cs">
       <DependentUpon>Frm_Questao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_ValidaCPF2_UC.cs">
+    <Compile Include="Formulários - Curso 02\Frm_ValidaCPF2_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Frm_ValidaCPF2_UC.Designer.cs">
+    <Compile Include="Formulários - Curso 02\Frm_ValidaCPF2_UC.Designer.cs">
       <DependentUpon>Frm_ValidaCPF2_UC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -163,16 +157,16 @@
     <EmbeddedResource Include="Formulários - Curso 01\Frm_Mascara.resx">
       <DependentUpon>Frm_Mascara.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ArquivoImagem_UC.resx">
+    <EmbeddedResource Include="Formulários - Curso 02\Frm_ArquivoImagem_UC.resx">
       <DependentUpon>Frm_ArquivoImagem_UC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_DemonstracaoKey_UC.resx">
+    <EmbeddedResource Include="Formulários - Curso 02\Frm_DemonstracaoKey_UC.resx">
       <DependentUpon>Frm_DemonstracaoKey_UC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_HelloWorld_UC.resx">
+    <EmbeddedResource Include="Formulários - Curso 02\Frm_HelloWorld_UC.resx">
       <DependentUpon>Frm_HelloWorld_UC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Login.resx">
+    <EmbeddedResource Include="Formulários - Curso 02\Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
@@ -196,10 +190,10 @@
     <EmbeddedResource Include="Frm_Principal_Menu_UC.resx">
       <DependentUpon>Frm_Principal_Menu_UC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Questao.resx">
+    <EmbeddedResource Include="Formulários - Curso 02\Frm_Questao.resx">
       <DependentUpon>Frm_Questao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_ValidaCPF2_UC.resx">
+    <EmbeddedResource Include="Formulários - Curso 02\Frm_ValidaCPF2_UC.resx">
       <DependentUpon>Frm_ValidaCPF2_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -226,6 +220,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Frm_Principal.ico" />
     <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
     <Content Include="Imagens\Frm_DemonstracaoKey.png" />
     <Content Include="Imagens\Frm_HelloWorld.ico" />
