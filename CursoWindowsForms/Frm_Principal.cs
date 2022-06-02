@@ -52,5 +52,10 @@ namespace CursoWindowsForms
             Frm_ValidaSenha frm_ValidaSenha = new Frm_ValidaSenha();
             frm_ValidaSenha.ShowDialog();
         }
+
+        private void Frm_Principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

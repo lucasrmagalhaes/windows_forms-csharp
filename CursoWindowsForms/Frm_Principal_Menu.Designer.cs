@@ -32,14 +32,14 @@
             this.Mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helloWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.máscaraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaCPFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaCPF2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validaSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helloWorldToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +75,24 @@
             this.novoToolStripMenuItem1.Name = "novoToolStripMenuItem1";
             this.novoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.novoToolStripMenuItem1.Text = "Novo";
-            this.novoToolStripMenuItem1.Click += new System.EventHandler(this.novoToolStripMenuItem1_Click);
+            // 
+            // deToolStripMenuItem
+            // 
+            this.deToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deToolStripMenuItem.Image")));
+            this.deToolStripMenuItem.Name = "deToolStripMenuItem";
+            this.deToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.K)));
+            this.deToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.deToolStripMenuItem.Text = "Demonstração &Key";
+            this.deToolStripMenuItem.Click += new System.EventHandler(this.deToolStripMenuItem_Click);
+            // 
+            // helloWorldToolStripMenuItem
+            // 
+            this.helloWorldToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_HelloWorld;
+            this.helloWorldToolStripMenuItem.Name = "helloWorldToolStripMenuItem";
+            this.helloWorldToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.W)));
+            this.helloWorldToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.helloWorldToolStripMenuItem.Text = "Hello &World";
+            this.helloWorldToolStripMenuItem.Click += new System.EventHandler(this.helloWorldToolStripMenuItem_Click);
             // 
             // máscaraToolStripMenuItem
             // 
@@ -84,6 +101,7 @@
             this.máscaraToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.M)));
             this.máscaraToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
             this.máscaraToolStripMenuItem.Text = "&Máscara";
+            this.máscaraToolStripMenuItem.Click += new System.EventHandler(this.máscaraToolStripMenuItem_Click);
             // 
             // validaCPFToolStripMenuItem
             // 
@@ -93,6 +111,7 @@
             this.validaCPFToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
             this.validaCPFToolStripMenuItem.Text = "Valida &CPF";
             this.validaCPFToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.validaCPFToolStripMenuItem.Click += new System.EventHandler(this.validaCPFToolStripMenuItem_Click);
             // 
             // validaCPF2ToolStripMenuItem
             // 
@@ -102,6 +121,7 @@
             this.validaCPF2ToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
             this.validaCPF2ToolStripMenuItem.Text = "Valida C&PF 2";
             this.validaCPF2ToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.validaCPF2ToolStripMenuItem.Click += new System.EventHandler(this.validaCPF2ToolStripMenuItem_Click);
             // 
             // validaSenhaToolStripMenuItem
             // 
@@ -110,34 +130,20 @@
             this.validaSenhaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.S)));
             this.validaSenhaToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
             this.validaSenhaToolStripMenuItem.Text = "Valida &Senha";
+            this.validaSenhaToolStripMenuItem.Click += new System.EventHandler(this.validaSenhaToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
             this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem1.Text = "Sair";
+            this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
             // windowsToolStripMenuItem
             // 
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.windowsToolStripMenuItem.Text = "Windows";
-            // 
-            // deToolStripMenuItem
-            // 
-            this.deToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deToolStripMenuItem.Image")));
-            this.deToolStripMenuItem.Name = "deToolStripMenuItem";
-            this.deToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.K)));
-            this.deToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.deToolStripMenuItem.Text = "Demonstração &Key";
-            // 
-            // helloWorldToolStripMenuItem
-            // 
-            this.helloWorldToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_HelloWorld;
-            this.helloWorldToolStripMenuItem.Name = "helloWorldToolStripMenuItem";
-            this.helloWorldToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.W)));
-            this.helloWorldToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.helloWorldToolStripMenuItem.Text = "Hello &World";
             // 
             // Frm_Principal_Menu
             // 
