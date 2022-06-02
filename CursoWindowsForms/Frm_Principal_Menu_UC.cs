@@ -128,19 +128,33 @@ namespace CursoWindowsForms
         private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_Login F = new Frm_Login();
+            
             F.ShowDialog();
 
             if (F.DialogResult == DialogResult.OK)
             {
-                novoToolStripMenuItem1.Enabled = true;
-                apagarAbaToolStripMenuItem.Enabled = true;
-                sairToolStripMenuItem1.Enabled = true;
-                açõesToolStripMenuItem.Enabled = true;
-                abrirImagemToolStripMenuItem.Enabled = true;
-                windowsToolStripMenuItem.Enabled = true;
-                desconectarToolStripMenuItem.Enabled = true;
+                string login = F.login;
+                string senha = F.senha;
 
-                conectarToolStripMenuItem.Enabled = false;
+                if (CursoWindowsFormsBiblioteca.Cls_Uteis.validaSenhaLogin(senha) == true)
+                {
+                    novoToolStripMenuItem1.Enabled = true;
+                    apagarAbaToolStripMenuItem.Enabled = true;
+                    sairToolStripMenuItem1.Enabled = true;
+                    açõesToolStripMenuItem.Enabled = true;
+                    abrirImagemToolStripMenuItem.Enabled = true;
+                    windowsToolStripMenuItem.Enabled = true;
+                    desconectarToolStripMenuItem.Enabled = true;
+
+                    conectarToolStripMenuItem.Enabled = false;
+
+                    MessageBox.Show("Bem-vindo " + login + " !", "Mensagem",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                } else
+                {
+                    MessageBox.Show("Senha inválida!", "Mensagem",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
