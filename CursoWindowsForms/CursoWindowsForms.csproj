@@ -34,7 +34,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <ApplicationIcon>Arquivos\Frm_Principal.ico</ApplicationIcon>
+    <ApplicationIcon>Imagens\Frm_Principal.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,6 +132,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -147,7 +148,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Arquivos\Frm_Principal.ico" />
+    <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
+    <Content Include="Imagens\Frm_DemonstracaoKey.png" />
+    <Content Include="Imagens\Frm_HelloWorld.ico" />
+    <Content Include="Imagens\Frm_HelloWorld.png" />
+    <Content Include="Imagens\Frm_Mascara.ico" />
+    <Content Include="Imagens\Frm_Mascara.png" />
+    <Content Include="Imagens\Frm_Principal.ico" />
+    <Content Include="Imagens\Frm_ValidaCPF.ico" />
+    <Content Include="Imagens\Frm_ValidaCPF.png" />
+    <Content Include="Imagens\Frm_ValidaCPF2.ico" />
+    <Content Include="Imagens\Frm_ValidaCPF2.png" />
+    <Content Include="Imagens\Frm_ValidaSenha.ico" />
+    <Content Include="Imagens\Frm_ValidaSenha.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">
