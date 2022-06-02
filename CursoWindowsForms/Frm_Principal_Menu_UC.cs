@@ -13,6 +13,14 @@ namespace CursoWindowsForms
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
+
+            novoToolStripMenuItem1.Enabled = false;
+            apagarAbaToolStripMenuItem.Enabled = false;
+            sairToolStripMenuItem1.Enabled = false;
+            açõesToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            windowsToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
         }
 
         private void deToolStripMenuItem_Click(object sender, EventArgs e)
@@ -121,6 +129,32 @@ namespace CursoWindowsForms
         {
             Frm_Login F = new Frm_Login();
             F.ShowDialog();
+
+            if (F.DialogResult == DialogResult.OK)
+            {
+                novoToolStripMenuItem1.Enabled = true;
+                apagarAbaToolStripMenuItem.Enabled = true;
+                sairToolStripMenuItem1.Enabled = true;
+                açõesToolStripMenuItem.Enabled = true;
+                abrirImagemToolStripMenuItem.Enabled = true;
+                windowsToolStripMenuItem.Enabled = true;
+                desconectarToolStripMenuItem.Enabled = true;
+
+                conectarToolStripMenuItem.Enabled = false;
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            novoToolStripMenuItem1.Enabled = false;
+            apagarAbaToolStripMenuItem.Enabled = false;
+            sairToolStripMenuItem1.Enabled = false;
+            açõesToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            windowsToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
+
+            conectarToolStripMenuItem.Enabled = true;
         }
     }
 }
