@@ -137,3 +137,8 @@ Pelo menos uma das teclas Ctrl, Alt e Shift deve ser escolhida para o atalho. Ou
 - Click
 
 Este é o evento que representa a escolha da opção do menu.
+
+**Como chamamos um formulário para que ele seja apresentado na área de formulários MDI, sem impedir que outros formulários sejam chamados?**
+- .Show
+
+Este é o método correto para abrir um formulário e permitir que outros também sejam abertos.
