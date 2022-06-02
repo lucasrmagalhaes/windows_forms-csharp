@@ -159,3 +159,8 @@ Tanto é que, na aula, copiamos todos os componentes de um formulário Windows F
 Temos que ter uma variável instanciando a própria TabPage que desejamos excluir. No exemplo, usamos o comando .SelectedTab, que retorna a própria TabPage selecionada.
 
 [PNG - ICO](https://convertico.com/)
+
+**Como nos referenciamos a uma imagem, que está na área de recursos da solução, pelo seu nome?**
+- Image MyImage = (Image)global::CursoWindowsForms.Properties.Resources.ResourceManager.GetObject(nomeImagem);
+
+É assim que nos referenciamos a uma imagem da área de recursos.
