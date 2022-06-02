@@ -122,3 +122,8 @@ A maneira mais fácil de identificar o projeto principal é verificando aquele c
 - No projeto do formulário, devemos adicionar a referência ao projeto da classe e, no código fonte do formulário, devemos usar o comando using
 
 Estes são os dois passos que devem ser seguidos para fazer a referência de um projeto em outro projeto.
+
+**O que é preciso ser feito para podermos adicionar uma imagens a um item do menu?**
+- Adicionar a imagem ao projeto e adicioná-la à propriedade Image, do item de menu
+
+São estes os passos para adicionar as imagens aos recursos do projeto.
