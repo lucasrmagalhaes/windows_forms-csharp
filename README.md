@@ -169,3 +169,8 @@ Temos que ter uma variável instanciando a própria TabPage que desejamos exclui
 ```Db.Filter = "TXT|*.TXT";```
 
 É desta forma que representamos o filtro de arquivos da caixa de diálogo OpenDialogBox.
+
+**Se queremos desabilitar um componente, que propriedade usamos?**
+- Enabled = false
+
+Esta é a opção para desabilitar o componente.
