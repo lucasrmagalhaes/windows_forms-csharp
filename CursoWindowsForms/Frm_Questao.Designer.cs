@@ -32,8 +32,8 @@
             this.Lbl_Questao = new System.Windows.Forms.Label();
             this.Btn_OK = new System.Windows.Forms.Button();
             this.Btn_Cancel = new System.Windows.Forms.Button();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            this.Pic_Imagem = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Imagem)).BeginInit();
             this.SuspendLayout();
             // 
             // Lbl_Questao
@@ -67,22 +67,22 @@
             this.Btn_Cancel.UseVisualStyleBackColor = true;
             this.Btn_Cancel.Click += new System.EventHandler(this.Btn_Cancel_Click);
             // 
-            // PictureBox1
+            // Pic_Imagem
             // 
-            this.PictureBox1.Image = global::CursoWindowsForms.Properties.Resources.icons8_question_mark_96;
-            this.PictureBox1.Location = new System.Drawing.Point(22, 52);
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(100, 87);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.PictureBox1.TabIndex = 3;
-            this.PictureBox1.TabStop = false;
+            this.Pic_Imagem.Image = global::CursoWindowsForms.Properties.Resources.icons8_question_mark_96;
+            this.Pic_Imagem.Location = new System.Drawing.Point(22, 52);
+            this.Pic_Imagem.Name = "Pic_Imagem";
+            this.Pic_Imagem.Size = new System.Drawing.Size(100, 87);
+            this.Pic_Imagem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Pic_Imagem.TabIndex = 3;
+            this.Pic_Imagem.TabStop = false;
             // 
             // Frm_Questao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(289, 151);
-            this.Controls.Add(this.PictureBox1);
+            this.Controls.Add(this.Pic_Imagem);
             this.Controls.Add(this.Btn_Cancel);
             this.Controls.Add(this.Btn_OK);
             this.Controls.Add(this.Lbl_Questao);
@@ -93,7 +93,7 @@
             this.Name = "Frm_Questao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Questão";
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Imagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,6 +104,6 @@
         private System.Windows.Forms.Label Lbl_Questao;
         private System.Windows.Forms.Button Btn_OK;
         private System.Windows.Forms.Button Btn_Cancel;
-        private System.Windows.Forms.PictureBox PictureBox1;
+        private System.Windows.Forms.PictureBox Pic_Imagem;
     }
 }
