@@ -37,6 +37,8 @@
             // 
             // Txt_Senha
             // 
+            this.Txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_Senha.Location = new System.Drawing.Point(12, 45);
             this.Txt_Senha.Name = "Txt_Senha";
             this.Txt_Senha.PasswordChar = '*';
@@ -46,6 +48,7 @@
             // 
             // Lbl_Resultado
             // 
+            this.Lbl_Resultado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Lbl_Resultado.AutoSize = true;
             this.Lbl_Resultado.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Resultado.Location = new System.Drawing.Point(12, 90);
@@ -55,6 +58,7 @@
             // 
             // Btn_Reset
             // 
+            this.Btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Reset.Location = new System.Drawing.Point(245, 42);
             this.Btn_Reset.Name = "Btn_Reset";
             this.Btn_Reset.Size = new System.Drawing.Size(111, 23);
@@ -65,6 +69,7 @@
             // 
             // Btn_VerSenha
             // 
+            this.Btn_VerSenha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_VerSenha.Location = new System.Drawing.Point(245, 71);
             this.Btn_VerSenha.Name = "Btn_VerSenha";
             this.Btn_VerSenha.Size = new System.Drawing.Size(111, 23);

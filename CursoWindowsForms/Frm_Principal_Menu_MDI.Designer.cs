@@ -80,6 +80,7 @@
             // 
             // deToolStripMenuItem
             // 
+            this.deToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Frm_DemonstracaoKey;
             this.deToolStripMenuItem.Name = "deToolStripMenuItem";
             this.deToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.K)));
             this.deToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
