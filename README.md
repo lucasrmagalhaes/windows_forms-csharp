@@ -157,3 +157,5 @@ Tanto é que, na aula, copiamos todos os componentes de um formulário Windows F
 - Uma variável do tipo TabPage
 
 Temos que ter uma variável instanciando a própria TabPage que desejamos excluir. No exemplo, usamos o comando .SelectedTab, que retorna a própria TabPage selecionada.
+
+[PNG - ICO](https://convertico.com/)

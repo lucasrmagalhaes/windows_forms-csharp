@@ -18,26 +18,26 @@ namespace CursoWindowsForms
 
         private void helloWorldToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_HelloWorld frm_HelloWorld = new Frm_HelloWorld();
-            frm_HelloWorld.ShowDialog();
+            Frm_HelloWorld f = new Frm_HelloWorld();
+            f.ShowDialog();
         }
 
         private void máscaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_Mascara frm_Mascara = new Frm_Mascara();
-            frm_Mascara.ShowDialog();
+            Frm_Mascara f = new Frm_Mascara();
+            f.ShowDialog();
         }
 
         private void validaCPFToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_ValidaCPF frm_ValidaCPF = new Frm_ValidaCPF();
-            frm_ValidaCPF.ShowDialog();
+            Frm_ValidaCPF f = new Frm_ValidaCPF();
+            f.ShowDialog();
         }
 
         private void validaCPF2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_ValidaCPF2 frm_ValidaCPF2 = new Frm_ValidaCPF2();
-            frm_ValidaCPF2.ShowDialog();
+            Frm_ValidaCPF2 f = new Frm_ValidaCPF2();
+            f.ShowDialog();
         }
 
         private void validaSenhaToolStripMenuItem_Click(object sender, EventArgs e)
