@@ -152,3 +152,8 @@ Tanto é que, na aula, copiamos todos os componentes de um formulário Windows F
 - Associando a sua TabControl a uma ImageList e escolhendo o número do índice da imagem na propriedade ImageIndex, da TabPage
 
 É assim que associamos uma imagem à TabPage.
+
+**Qual é o parâmetro que tenho que colocar para remover uma TabPage, no método .Remove?**
+- Uma variável do tipo TabPage
+
+Temos que ter uma variável instanciando a própria TabPage que desejamos excluir. No exemplo, usamos o comando .SelectedTab, que retorna a própria TabPage selecionada.
