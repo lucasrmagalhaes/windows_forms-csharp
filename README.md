@@ -147,3 +147,8 @@ Este é o método correto para abrir um formulário e permitir que outros també
 - Eles têm os mesmos componentes de um formulário Windows Forms
 
 Tanto é que, na aula, copiamos todos os componentes de um formulário Windows Forms para um User Control.
+
+**Como adicionamos uma imagem em uma TabPage?**
+- Associando a sua TabControl a uma ImageList e escolhendo o número do índice da imagem na propriedade ImageIndex, da TabPage
+
+É assim que associamos uma imagem à TabPage.
