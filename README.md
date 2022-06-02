@@ -164,3 +164,8 @@ Temos que ter uma variável instanciando a própria TabPage que desejamos exclui
 - Image MyImage = (Image)global::CursoWindowsForms.Properties.Resources.ResourceManager.GetObject(nomeImagem);
 
 É assim que nos referenciamos a uma imagem da área de recursos.
+
+**Se, ao usar a OpenFileDialog, quero visualizar somente arquivos de texto (TXT), como devo representar isso no seu filtro de arquivos?**
+```Db.Filter = "TXT|*.TXT";```
+
+É desta forma que representamos o filtro de arquivos da caixa de diálogo OpenDialogBox.
