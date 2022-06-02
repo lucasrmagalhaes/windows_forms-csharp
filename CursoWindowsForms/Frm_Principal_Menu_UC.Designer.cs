@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal_Menu_UC));
             this.Mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,6 +42,7 @@
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
+            this.Img_Imagens = new System.Windows.Forms.ImageList(this.components);
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,7 +138,7 @@
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(103, 22);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
@@ -148,11 +151,23 @@
             // Tbc_Aplicacoes
             // 
             this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Tbc_Aplicacoes.ImageList = this.Img_Imagens;
             this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 24);
             this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
             this.Tbc_Aplicacoes.SelectedIndex = 0;
             this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 426);
             this.Tbc_Aplicacoes.TabIndex = 1;
+            // 
+            // Img_Imagens
+            // 
+            this.Img_Imagens.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("Img_Imagens.ImageStream")));
+            this.Img_Imagens.TransparentColor = System.Drawing.Color.Transparent;
+            this.Img_Imagens.Images.SetKeyName(0, "Frm_DemonstracaoKey.png");
+            this.Img_Imagens.Images.SetKeyName(1, "Frm_HelloWorld.png");
+            this.Img_Imagens.Images.SetKeyName(2, "Frm_Mascara.png");
+            this.Img_Imagens.Images.SetKeyName(3, "Frm_ValidaCPF.png");
+            this.Img_Imagens.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
+            this.Img_Imagens.Images.SetKeyName(5, "Frm_ValidaSenha.png");
             // 
             // Frm_Principal_Menu_UC
             // 
@@ -186,5 +201,6 @@
         private System.Windows.Forms.ToolStripMenuItem validaCPF2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem validaSenhaToolStripMenuItem;
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
+        private System.Windows.Forms.ImageList Img_Imagens;
     }
 }
