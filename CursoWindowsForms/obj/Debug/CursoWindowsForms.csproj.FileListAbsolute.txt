@@ -18,3 +18,4 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWin
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\bin\Debug\CursoWindowsFormsBiblioteca.dll
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\bin\Debug\CursoWindowsFormsBiblioteca.pdb
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu.resources
