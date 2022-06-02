@@ -1,6 +1,6 @@
-﻿namespace CursoWindowsForms
+﻿namespace CursoWindowsFormsBiblioteca
 {
-    internal class Cls_Uteis
+    public class Cls_Uteis
     {
         public static bool ValidaCPF(string cpf)
         {

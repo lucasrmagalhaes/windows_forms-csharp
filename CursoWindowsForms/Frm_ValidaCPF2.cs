@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CursoWindowsFormsBiblioteca;
+using System;
 using System.Windows.Forms;
 
 namespace CursoWindowsForms
