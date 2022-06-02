@@ -117,3 +117,8 @@ Esta é a extensão que representa uma solução do Visual Studio.
 - O projeto cujo nome estiver em negrito será o projeto principal.
 
 A maneira mais fácil de identificar o projeto principal é verificando aquele cujo nome está em negrito.
+
+**O que preciso fazer para referenciar uma classe de um projeto em um formulário que está dentro de outro projeto?**
+- No projeto do formulário, devemos adicionar a referência ao projeto da classe e, no código fonte do formulário, devemos usar o comando using
+
+Estes são os dois passos que devem ser seguidos para fazer a referência de um projeto em outro projeto.
