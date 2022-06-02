@@ -127,3 +127,8 @@ Estes são os dois passos que devem ser seguidos para fazer a referência de um 
 - Adicionar a imagem ao projeto e adicioná-la à propriedade Image, do item de menu
 
 São estes os passos para adicionar as imagens aos recursos do projeto.
+
+**Sobre as teclas de atalho, selecione a alternativa correta.**
+- Podemos associar três teclas a um atalho
+
+Pelo menos uma das teclas Ctrl, Alt e Shift deve ser escolhida para o atalho. Ou seja, podemos ter uma, duas ou todas elas no atalho, podendo escolher algo como Alt + Ctrl + B como atalho.
