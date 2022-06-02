@@ -112,3 +112,8 @@ Este é o evento que devemos chamar para abrir um formulário a partir do clique
 - .sln
 
 Esta é a extensão que representa uma solução do Visual Studio.
+
+**Quando temos mais de um projeto na nossa solução, como identificamos o projeto principal, apenas olhando o Gerenciador de Soluções?**
+- O projeto cujo nome estiver em negrito será o projeto principal.
+
+A maneira mais fácil de identificar o projeto principal é verificando aquele cujo nome está em negrito.
