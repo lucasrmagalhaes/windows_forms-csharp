@@ -132,3 +132,8 @@ São estes os passos para adicionar as imagens aos recursos do projeto.
 - Podemos associar três teclas a um atalho
 
 Pelo menos uma das teclas Ctrl, Alt e Shift deve ser escolhida para o atalho. Ou seja, podemos ter uma, duas ou todas elas no atalho, podendo escolher algo como Alt + Ctrl + B como atalho.
+
+**Qual o evento que representa a escolha do item do menu?**
+- Click
+
+Este é o evento que representa a escolha da opção do menu.
