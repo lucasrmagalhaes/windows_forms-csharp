@@ -79,6 +79,7 @@
             // 
             // Btn_CEP
             // 
+            this.Btn_CEP.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Btn_CEP.Location = new System.Drawing.Point(111, 110);
             this.Btn_CEP.Name = "Btn_CEP";
             this.Btn_CEP.Size = new System.Drawing.Size(82, 37);
@@ -152,7 +153,10 @@
             this.Controls.Add(this.Lbl_MascaraAtiva);
             this.Controls.Add(this.Lbl_Conteudo);
             this.Controls.Add(this.Msk_TextBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Frm_Mascara";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exemplos de Máscaras";
