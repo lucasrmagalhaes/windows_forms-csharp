@@ -174,3 +174,8 @@ Temos que ter uma variável instanciando a própria TabPage que desejamos exclui
 - Enabled = false
 
 Esta é a opção para desabilitar o componente.
+
+**Como podemos retornar valores de parâmetros das caixas de diálogo, sem ser pelo DialogResult?**
+- Criando uma propriedade pública na classe do formulário, que representa a caixa de diálogo
+
+Este é o modo correto de retornar valores da caixa de diálogo.
