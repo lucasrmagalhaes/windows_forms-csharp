@@ -160,15 +160,27 @@ namespace CursoWindowsForms
 
         private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            novoToolStripMenuItem1.Enabled = false;
-            apagarAbaToolStripMenuItem.Enabled = false;
-            sairToolStripMenuItem1.Enabled = false;
-            açõesToolStripMenuItem.Enabled = false;
-            abrirImagemToolStripMenuItem.Enabled = false;
-            windowsToolStripMenuItem.Enabled = false;
-            desconectarToolStripMenuItem.Enabled = false;
+            Frm_Questao Db = new Frm_Questao("icons8_question_mark_96", "Você deseja se desconectar?");
+            
+            Db.ShowDialog();
 
-            conectarToolStripMenuItem.Enabled = true;
+            if (Db.DialogResult == DialogResult.Yes)
+            {
+                for (int i = Tbc_Aplicacoes.TabPages.Count - 1; i >= 0; i += -1)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+
+                novoToolStripMenuItem1.Enabled = false;
+                apagarAbaToolStripMenuItem.Enabled = false;
+                sairToolStripMenuItem1.Enabled = false;
+                açõesToolStripMenuItem.Enabled = false;
+                abrirImagemToolStripMenuItem.Enabled = false;
+                windowsToolStripMenuItem.Enabled = false;
+                desconectarToolStripMenuItem.Enabled = false;
+
+                conectarToolStripMenuItem.Enabled = true;
+            }
         }
     }
 }
