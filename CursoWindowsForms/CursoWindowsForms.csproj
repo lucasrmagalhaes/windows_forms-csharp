@@ -257,6 +257,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Frm_Principal.ico" />
+    <Content Include="Imagens\DeleteAll.png" />
+    <Content Include="Imagens\DeleteLeft.png" />
+    <Content Include="Imagens\DeleteRight.png" />
+    <Content Include="Imagens\DeleteTab.png" />
     <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
     <Content Include="Imagens\Frm_DemonstracaoKey.png" />
     <Content Include="Imagens\Frm_HelloWorld.ico" />

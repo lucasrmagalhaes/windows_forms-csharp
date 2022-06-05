@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace CursoWindowsForms
@@ -181,6 +182,64 @@ namespace CursoWindowsForms
 
                 conectarToolStripMenuItem.Enabled = true;
             }
+        }
+
+        private void Tbc_Aplicacoes_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Right)
+            {
+                var ContextMenu = new ContextMenuStrip();
+
+                var vToolTip001 = DesenhaItemMenu("Apagar a aba", "DeleteTab");
+                var vToolTip002 = DesenhaItemMenu("Apagar todas a esquerda", "DeleteLeft");
+                var vToolTip003 = DesenhaItemMenu("Apagar todas a direita", "DeleteRight");
+                var vToolTip004 = DesenhaItemMenu("Apagar todas menos esta", "DeleteAll");
+
+                ContextMenu.Items.Add(vToolTip001);
+                ContextMenu.Items.Add(vToolTip002);
+                ContextMenu.Items.Add(vToolTip003);
+                ContextMenu.Items.Add(vToolTip004);
+
+                ContextMenu.Show(this, new System.Drawing.Point(e.X, e.Y));
+
+                vToolTip001.Click += new System.EventHandler(vToolTip001_Click);
+                vToolTip002.Click += new System.EventHandler(vToolTip002_Click);
+                vToolTip003.Click += new System.EventHandler(vToolTip003_Click);
+                vToolTip004.Click += new System.EventHandler(vToolTip004_Click);
+            }
+        }
+
+        void vToolTip001_Click(object sender1, EventArgs e1)
+        {
+
+        }
+
+        void vToolTip002_Click(object sender2, EventArgs e2)
+        {
+            
+        }
+
+        void vToolTip003_Click(object sender3, EventArgs e3)
+        {
+
+        }
+
+        void vToolTip004_Click(object sender4, EventArgs e4)
+        {
+
+        }
+
+        ToolStripMenuItem DesenhaItemMenu(string texto, string nomeImagem)
+        {
+            var vToolTip = new ToolStripMenuItem();
+
+            vToolTip.Text = texto;
+
+            Image MinhaImagem = (Image)global::CursoWindowsForms.Properties.Resources.ResourceManager.GetObject(nomeImagem);
+
+            vToolTip.Image = MinhaImagem;
+
+            return vToolTip;
         }
     }
 }
