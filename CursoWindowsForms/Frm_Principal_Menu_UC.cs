@@ -219,7 +219,15 @@ namespace CursoWindowsForms
 
         void vToolTip002_Click(object sender2, EventArgs e2)
         {
-            
+            if (!(Tbc_Aplicacoes.SelectedTab == null))
+            {
+                int ItemSelecionado = Tbc_Aplicacoes.SelectedIndex;
+
+                for (int i = ItemSelecionado - 1; i >= 0; i += -1)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+            }
         }
 
         void vToolTip003_Click(object sender3, EventArgs e3)
