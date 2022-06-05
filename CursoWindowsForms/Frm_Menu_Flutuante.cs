@@ -1,4 +1,6 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace CursoWindowsForms
 {
@@ -27,17 +29,19 @@ namespace CursoWindowsForms
 
                 var ContextMenu = new ContextMenuStrip();
 
-                ContextMenu.Items.Add(DesenhaItemMenu("Item do Menu 01"));
-                ContextMenu.Items.Add(DesenhaItemMenu("Item do Menu 02"));
+                ContextMenu.Items.Add(DesenhaItemMenu("Item do Menu 01", "key"));
+                ContextMenu.Items.Add(DesenhaItemMenu("Item do Menu 02", "Frm_ValidaSenha"));
 
                 ContextMenu.Show(this, new System.Drawing.Point(e.X, e.Y));
             }
 
-            ToolStripMenuItem DesenhaItemMenu(string text)
+            ToolStripMenuItem DesenhaItemMenu(string texto, string nomeImagem)
             {
                 var vToolTip = new ToolStripMenuItem();
-               
-                vToolTip.Text = text;
+                vToolTip.Text = texto;
+
+                Image MinhaImagem = (Image)global::CursoWindowsForms.Properties.Resources.ResourceManager.GetObject(nomeImagem);
+                vToolTip.Image = MinhaImagem;
 
                 return vToolTip;
             }
