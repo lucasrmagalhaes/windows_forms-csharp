@@ -221,12 +221,7 @@ namespace CursoWindowsForms
         {
             if (!(Tbc_Aplicacoes.SelectedTab == null))
             {
-                int ItemSelecionado = Tbc_Aplicacoes.SelectedIndex;
-
-                for (int i = ItemSelecionado - 1; i >= 0; i += -1)
-                {
-                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
-                }
+                ApagaAbasEsquerda(Tbc_Aplicacoes.SelectedIndex);
             }
         }
 
@@ -234,18 +229,17 @@ namespace CursoWindowsForms
         {
             if (!(Tbc_Aplicacoes.SelectedTab == null))
             {
-                int ItemSelecionado = Tbc_Aplicacoes.SelectedIndex;
-
-                for (int i = Tbc_Aplicacoes.TabCount - 1; i > ItemSelecionado; i += -1)
-                {
-                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
-                }
+                ApagaAbasDireita(Tbc_Aplicacoes.SelectedIndex);
             }
         }
 
         void vToolTip004_Click(object sender4, EventArgs e4)
         {
-
+            if (!(Tbc_Aplicacoes.SelectedTab == null))
+            {
+                ApagaAbasEsquerda(Tbc_Aplicacoes.SelectedIndex);
+                ApagaAbasDireita(Tbc_Aplicacoes.SelectedIndex);
+            }
         }
 
         ToolStripMenuItem DesenhaItemMenu(string texto, string nomeImagem)
@@ -259,6 +253,22 @@ namespace CursoWindowsForms
             vToolTip.Image = MinhaImagem;
 
             return vToolTip;
+        }
+
+        void ApagaAbasEsquerda(int ItemSelecionado)
+        {
+            for (int i = ItemSelecionado - 1; i >= 0; i += -1)
+            {
+                Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+            }
+        }
+
+        void ApagaAbasDireita(int ItemSelecionado)
+        {
+            for (int i = Tbc_Aplicacoes.TabCount - 1; i > ItemSelecionado; i += -1)
+            {
+                Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+            }
         }
     }
 }
