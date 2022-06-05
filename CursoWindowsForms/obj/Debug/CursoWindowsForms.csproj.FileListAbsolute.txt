@@ -28,3 +28,4 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWin
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ArquivoImagem_UC.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Login.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_MouseEventos.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.btn.resources
