@@ -92,6 +92,12 @@
     <Compile Include="Formulários - Curso 02\Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_MouseCursor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MouseCursor.Designer.cs">
+      <DependentUpon>Frm_MouseCursor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_MouseCaptura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários - Curso 02\Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MouseCursor.resx">
+      <DependentUpon>Frm_MouseCursor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_MouseCaptura.resx">
       <DependentUpon>Frm_MouseCaptura.cs</DependentUpon>
