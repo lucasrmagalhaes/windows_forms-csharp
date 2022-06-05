@@ -13,11 +13,11 @@ namespace CursoWindowsForms
         {
             if (e.Button == System.Windows.Forms.MouseButtons.Right) 
             {
-              
+                /*
                 var PosicaoX = e.X;
                 var PosicaoY = e.Y;
 
-                /*
+
                 MessageBox.Show(
                     "Cliquei com o botão direito do mouse.\n" +
                     "A posição relativa foi (" + 
@@ -26,12 +26,20 @@ namespace CursoWindowsForms
                 */
 
                 var ContextMenu = new ContextMenuStrip();
-                var vToolTip001 = new ToolStripMenuItem();
 
-                vToolTip001.Text = "Item do Menu 01";
+                ContextMenu.Items.Add(DesenhaItemMenu("Item do Menu 01"));
+                ContextMenu.Items.Add(DesenhaItemMenu("Item do Menu 02"));
 
-                ContextMenu.Items.Add(vToolTip001);
-                ContextMenu.Show(this, new System.Drawing.Point(PosicaoX, PosicaoY));
+                ContextMenu.Show(this, new System.Drawing.Point(e.X, e.Y));
+            }
+
+            ToolStripMenuItem DesenhaItemMenu(string text)
+            {
+                var vToolTip = new ToolStripMenuItem();
+               
+                vToolTip.Text = text;
+
+                return vToolTip;
             }
         }
     }
