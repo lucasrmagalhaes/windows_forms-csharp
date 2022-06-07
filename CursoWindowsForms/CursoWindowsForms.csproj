@@ -92,34 +92,34 @@
     <Compile Include="Formulários - Curso 02\Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_CadastroClientes_UC.cs">
+    <Compile Include="Formulários - Curso 03\Frm_CadastroClientes_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Frm_CadastroClientes_UC.Designer.cs">
+    <Compile Include="Formulários - Curso 03\Frm_CadastroClientes_UC.Designer.cs">
       <DependentUpon>Frm_CadastroClientes_UC.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Menu_Flutuante.cs">
+    <Compile Include="Formulários - Curso 03\Frm_Menu_Flutuante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Menu_Flutuante.Designer.cs">
+    <Compile Include="Formulários - Curso 03\Frm_Menu_Flutuante.Designer.cs">
       <DependentUpon>Frm_Menu_Flutuante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_MouseCursor.cs">
+    <Compile Include="Formulários - Curso 03\Frm_MouseCursor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_MouseCursor.Designer.cs">
+    <Compile Include="Formulários - Curso 03\Frm_MouseCursor.Designer.cs">
       <DependentUpon>Frm_MouseCursor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_MouseCaptura.cs">
+    <Compile Include="Formulários - Curso 03\Frm_MouseCaptura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_MouseCaptura.Designer.cs">
+    <Compile Include="Formulários - Curso 03\Frm_MouseCaptura.Designer.cs">
       <DependentUpon>Frm_MouseCaptura.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_MouseEventos.cs">
+    <Compile Include="Formulários - Curso 03\Frm_MouseEventos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_MouseEventos.Designer.cs">
+    <Compile Include="Formulários - Curso 03\Frm_MouseEventos.Designer.cs">
       <DependentUpon>Frm_MouseEventos.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Principal.cs">
@@ -199,19 +199,19 @@
     <EmbeddedResource Include="Formulários - Curso 02\Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_CadastroClientes_UC.resx">
+    <EmbeddedResource Include="Formulários - Curso 03\Frm_CadastroClientes_UC.resx">
       <DependentUpon>Frm_CadastroClientes_UC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Menu_Flutuante.resx">
+    <EmbeddedResource Include="Formulários - Curso 03\Frm_Menu_Flutuante.resx">
       <DependentUpon>Frm_Menu_Flutuante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_MouseCursor.resx">
+    <EmbeddedResource Include="Formulários - Curso 03\Frm_MouseCursor.resx">
       <DependentUpon>Frm_MouseCursor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_MouseCaptura.resx">
+    <EmbeddedResource Include="Formulários - Curso 03\Frm_MouseCaptura.resx">
       <DependentUpon>Frm_MouseCaptura.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_MouseEventos.resx">
+    <EmbeddedResource Include="Formulários - Curso 03\Frm_MouseEventos.resx">
       <DependentUpon>Frm_MouseEventos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">

@@ -27,3 +27,8 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoW
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal_Menu_UC.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Questao.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF2_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_CadastroClientes_UC.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Menu_Flutuante.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_MouseCursor.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.btn.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_MouseEventos.resources
