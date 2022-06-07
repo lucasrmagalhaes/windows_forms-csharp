@@ -92,6 +92,12 @@
     <Compile Include="Formulários - Curso 02\Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CadastroCliente_UC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CadastroCliente_UC.Designer.cs">
+      <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Menu_Flutuante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,6 +199,9 @@
     <EmbeddedResource Include="Formulários - Curso 02\Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CadastroCliente_UC.resx">
+      <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Menu_Flutuante.resx">
       <DependentUpon>Frm_Menu_Flutuante.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,6 +266,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Frm_Principal.ico" />
+    <Content Include="Imagens\Cadastros.png" />
     <Content Include="Imagens\DeleteAll.png" />
     <Content Include="Imagens\DeleteLeft.png" />
     <Content Include="Imagens\DeleteRight.png" />
@@ -277,6 +287,8 @@
     <Content Include="Imagens\icons8-question-mark-96.ico" />
     <Content Include="Imagens\icons8-question-mark-96.png" />
     <Content Include="Imagens\key.png" />
+    <Content Include="Imagens\money.png" />
+    <Content Include="Imagens\user.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CursoWindowsFormsBiblioteca\CursoWindowsFormsBiblioteca.csproj">

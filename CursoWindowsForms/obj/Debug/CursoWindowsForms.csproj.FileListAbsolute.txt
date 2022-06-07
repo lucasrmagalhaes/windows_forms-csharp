@@ -31,3 +31,4 @@ C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWin
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.btn.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_MouseCursor.resources
 C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Menu_Flutuante.resources
+C:\Users\Lucas\Desktop\windows_forms-csharp\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_CadastroCliente_UC.resources
