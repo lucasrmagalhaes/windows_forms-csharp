@@ -36,8 +36,6 @@
             this.Lbl_NomeCliente = new System.Windows.Forms.Label();
             this.Lbl_NomePai = new System.Windows.Forms.Label();
             this.Lbl_NomeMae = new System.Windows.Forms.Label();
-            this.Lbl_Genero = new System.Windows.Forms.Label();
-            this.Txt_Genero = new System.Windows.Forms.TextBox();
             this.Lbl_CEP = new System.Windows.Forms.Label();
             this.Txt_CEP = new System.Windows.Forms.TextBox();
             this.Lbl_Logradouro = new System.Windows.Forms.Label();
@@ -63,20 +61,25 @@
             this.Grp_Outros = new System.Windows.Forms.GroupBox();
             this.Lbl_RendaFamiliar = new System.Windows.Forms.Label();
             this.txtRendaFamiliar = new System.Windows.Forms.TextBox();
+            this.Grp_Genero = new System.Windows.Forms.GroupBox();
+            this.Rdb_Masculino = new System.Windows.Forms.RadioButton();
+            this.Rdb_Feminino = new System.Windows.Forms.RadioButton();
+            this.Rdb_Indefinido = new System.Windows.Forms.RadioButton();
             this.Grp_Codigo.SuspendLayout();
             this.Grp_DadosPessoais.SuspendLayout();
             this.Grp_TemPai.SuspendLayout();
             this.Grp_Endereco.SuspendLayout();
             this.Grp_Outros.SuspendLayout();
+            this.Grp_Genero.SuspendLayout();
             this.SuspendLayout();
             // 
             // Txt_CPF
             // 
             this.Txt_CPF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Txt_CPF.Location = new System.Drawing.Point(507, 149);
+            this.Txt_CPF.Location = new System.Drawing.Point(517, 71);
             this.Txt_CPF.Name = "Txt_CPF";
-            this.Txt_CPF.Size = new System.Drawing.Size(328, 20);
+            this.Txt_CPF.Size = new System.Drawing.Size(263, 20);
             this.Txt_CPF.TabIndex = 6;
             // 
             // Txt_NomeCliente
@@ -92,24 +95,24 @@
             // 
             this.Txt_NomePai.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Txt_NomePai.Location = new System.Drawing.Point(5, 71);
+            this.Txt_NomePai.Location = new System.Drawing.Point(4, 108);
             this.Txt_NomePai.Name = "Txt_NomePai";
-            this.Txt_NomePai.Size = new System.Drawing.Size(496, 20);
+            this.Txt_NomePai.Size = new System.Drawing.Size(493, 20);
             this.Txt_NomePai.TabIndex = 3;
             // 
             // Txt_NomeMae
             // 
             this.Txt_NomeMae.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Txt_NomeMae.Location = new System.Drawing.Point(5, 110);
+            this.Txt_NomeMae.Location = new System.Drawing.Point(4, 71);
             this.Txt_NomeMae.Name = "Txt_NomeMae";
-            this.Txt_NomeMae.Size = new System.Drawing.Size(496, 20);
+            this.Txt_NomeMae.Size = new System.Drawing.Size(493, 20);
             this.Txt_NomeMae.TabIndex = 4;
             // 
             // Lbl_CPF
             // 
             this.Lbl_CPF.AutoSize = true;
-            this.Lbl_CPF.Location = new System.Drawing.Point(504, 133);
+            this.Lbl_CPF.Location = new System.Drawing.Point(514, 55);
             this.Lbl_CPF.Name = "Lbl_CPF";
             this.Lbl_CPF.Size = new System.Drawing.Size(27, 13);
             this.Lbl_CPF.TabIndex = 4;
@@ -127,7 +130,7 @@
             // Lbl_NomePai
             // 
             this.Lbl_NomePai.AutoSize = true;
-            this.Lbl_NomePai.Location = new System.Drawing.Point(6, 55);
+            this.Lbl_NomePai.Location = new System.Drawing.Point(3, 92);
             this.Lbl_NomePai.Name = "Lbl_NomePai";
             this.Lbl_NomePai.Size = new System.Drawing.Size(68, 13);
             this.Lbl_NomePai.TabIndex = 6;
@@ -136,27 +139,11 @@
             // Lbl_NomeMae
             // 
             this.Lbl_NomeMae.AutoSize = true;
-            this.Lbl_NomeMae.Location = new System.Drawing.Point(3, 94);
+            this.Lbl_NomeMae.Location = new System.Drawing.Point(1, 55);
             this.Lbl_NomeMae.Name = "Lbl_NomeMae";
             this.Lbl_NomeMae.Size = new System.Drawing.Size(74, 13);
             this.Lbl_NomeMae.TabIndex = 7;
             this.Lbl_NomeMae.Text = "Nome da Mãe";
-            // 
-            // Lbl_Genero
-            // 
-            this.Lbl_Genero.AutoSize = true;
-            this.Lbl_Genero.Location = new System.Drawing.Point(2, 133);
-            this.Lbl_Genero.Name = "Lbl_Genero";
-            this.Lbl_Genero.Size = new System.Drawing.Size(42, 13);
-            this.Lbl_Genero.TabIndex = 9;
-            this.Lbl_Genero.Text = "Genero";
-            // 
-            // Txt_Genero
-            // 
-            this.Txt_Genero.Location = new System.Drawing.Point(5, 149);
-            this.Txt_Genero.Name = "Txt_Genero";
-            this.Txt_Genero.Size = new System.Drawing.Size(496, 20);
-            this.Txt_Genero.TabIndex = 5;
             // 
             // Lbl_CEP
             // 
@@ -295,6 +282,7 @@
             // 
             // Grp_DadosPessoais
             // 
+            this.Grp_DadosPessoais.Controls.Add(this.Grp_Genero);
             this.Grp_DadosPessoais.Controls.Add(this.Grp_TemPai);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomeCliente);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomeCliente);
@@ -302,8 +290,6 @@
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomePai);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomeMae);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomeMae);
-            this.Grp_DadosPessoais.Controls.Add(this.Txt_Genero);
-            this.Grp_DadosPessoais.Controls.Add(this.Lbl_Genero);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_CPF);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_CPF);
             this.Grp_DadosPessoais.Location = new System.Drawing.Point(3, 61);
@@ -316,20 +302,20 @@
             // Grp_TemPai
             // 
             this.Grp_TemPai.Controls.Add(this.Chk_TemPai);
-            this.Grp_TemPai.Location = new System.Drawing.Point(507, 71);
+            this.Grp_TemPai.Location = new System.Drawing.Point(7, 134);
             this.Grp_TemPai.Name = "Grp_TemPai";
-            this.Grp_TemPai.Size = new System.Drawing.Size(328, 46);
+            this.Grp_TemPai.Size = new System.Drawing.Size(109, 36);
             this.Grp_TemPai.TabIndex = 10;
             this.Grp_TemPai.TabStop = false;
             // 
             // Chk_TemPai
             // 
             this.Chk_TemPai.AutoSize = true;
-            this.Chk_TemPai.Location = new System.Drawing.Point(27, 18);
+            this.Chk_TemPai.Location = new System.Drawing.Point(6, 10);
             this.Chk_TemPai.Name = "Chk_TemPai";
-            this.Chk_TemPai.Size = new System.Drawing.Size(80, 17);
+            this.Chk_TemPai.Size = new System.Drawing.Size(89, 17);
             this.Chk_TemPai.TabIndex = 0;
-            this.Chk_TemPai.Text = "checkBox1";
+            this.Chk_TemPai.Text = "Pai Ausente?";
             this.Chk_TemPai.UseVisualStyleBackColor = true;
             this.Chk_TemPai.CheckedChanged += new System.EventHandler(this.Chk_TemPai_CheckedChanged);
             // 
@@ -401,6 +387,50 @@
             this.txtRendaFamiliar.Size = new System.Drawing.Size(328, 20);
             this.txtRendaFamiliar.TabIndex = 15;
             // 
+            // Grp_Genero
+            // 
+            this.Grp_Genero.Controls.Add(this.Rdb_Indefinido);
+            this.Grp_Genero.Controls.Add(this.Rdb_Feminino);
+            this.Grp_Genero.Controls.Add(this.Rdb_Masculino);
+            this.Grp_Genero.Location = new System.Drawing.Point(517, 108);
+            this.Grp_Genero.Name = "Grp_Genero";
+            this.Grp_Genero.Size = new System.Drawing.Size(251, 62);
+            this.Grp_Genero.TabIndex = 11;
+            this.Grp_Genero.TabStop = false;
+            // 
+            // Rdb_Masculino
+            // 
+            this.Rdb_Masculino.AutoSize = true;
+            this.Rdb_Masculino.Location = new System.Drawing.Point(7, 3);
+            this.Rdb_Masculino.Name = "Rdb_Masculino";
+            this.Rdb_Masculino.Size = new System.Drawing.Size(73, 17);
+            this.Rdb_Masculino.TabIndex = 0;
+            this.Rdb_Masculino.TabStop = true;
+            this.Rdb_Masculino.Text = "Masculino";
+            this.Rdb_Masculino.UseVisualStyleBackColor = true;
+            // 
+            // Rdb_Feminino
+            // 
+            this.Rdb_Feminino.AutoSize = true;
+            this.Rdb_Feminino.Location = new System.Drawing.Point(178, 3);
+            this.Rdb_Feminino.Name = "Rdb_Feminino";
+            this.Rdb_Feminino.Size = new System.Drawing.Size(67, 17);
+            this.Rdb_Feminino.TabIndex = 1;
+            this.Rdb_Feminino.TabStop = true;
+            this.Rdb_Feminino.Text = "Feminino";
+            this.Rdb_Feminino.UseVisualStyleBackColor = true;
+            // 
+            // Rdb_Indefinido
+            // 
+            this.Rdb_Indefinido.AutoSize = true;
+            this.Rdb_Indefinido.Location = new System.Drawing.Point(7, 36);
+            this.Rdb_Indefinido.Name = "Rdb_Indefinido";
+            this.Rdb_Indefinido.Size = new System.Drawing.Size(71, 17);
+            this.Rdb_Indefinido.TabIndex = 2;
+            this.Rdb_Indefinido.TabStop = true;
+            this.Rdb_Indefinido.Text = "Indefinido";
+            this.Rdb_Indefinido.UseVisualStyleBackColor = true;
+            // 
             // Frm_CadastroClientes_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -421,6 +451,8 @@
             this.Grp_Endereco.PerformLayout();
             this.Grp_Outros.ResumeLayout(false);
             this.Grp_Outros.PerformLayout();
+            this.Grp_Genero.ResumeLayout(false);
+            this.Grp_Genero.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -435,8 +467,6 @@
         private System.Windows.Forms.Label Lbl_NomeCliente;
         private System.Windows.Forms.Label Lbl_NomePai;
         private System.Windows.Forms.Label Lbl_NomeMae;
-        private System.Windows.Forms.Label Lbl_Genero;
-        private System.Windows.Forms.TextBox Txt_Genero;
         private System.Windows.Forms.Label Lbl_CEP;
         private System.Windows.Forms.TextBox Txt_CEP;
         private System.Windows.Forms.Label Lbl_Logradouro;
@@ -462,5 +492,9 @@
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.GroupBox Grp_TemPai;
         private System.Windows.Forms.CheckBox Chk_TemPai;
+        private System.Windows.Forms.GroupBox Grp_Genero;
+        private System.Windows.Forms.RadioButton Rdb_Indefinido;
+        private System.Windows.Forms.RadioButton Rdb_Feminino;
+        private System.Windows.Forms.RadioButton Rdb_Masculino;
     }
 }

@@ -12,13 +12,13 @@ namespace CursoWindowsForms
             Grp_DadosPessoais.Text = "Dados Pessoais";
             Grp_Endereco.Text = "Endereço";
             Grp_Outros.Text = "Outros";
+            Grp_Genero.Text = "Genero";
 
             Lbl_Bairro.Text = "Bairro";
             Lbl_CEP.Text = "CEP";
             Lbl_Complemento.Text = "Complemento";
             Lbl_CPF.Text = "CPF";
             Lbl_Estado.Text = "Estado";
-            Lbl_Genero.Text = "Genero";
             Lbl_Logradouro.Text = "Logradouro";
             Lbl_NomeCliente.Text = "Nome";
             Lbl_NomeMae.Text = "Nome da Mãe";
@@ -29,6 +29,10 @@ namespace CursoWindowsForms
             Lbl_Cidade.Text = "Cidade";
 
             Chk_TemPai.Text = "Pai desconhecido";
+
+            Rdb_Masculino.Text = "Masculino";
+            Rdb_Feminino.Text = "Feminino";
+            Rdb_Indefinido.Text = "Indefinido";
         }
 
         private void Chk_TemPai_CheckedChanged(object sender, System.EventArgs e)
