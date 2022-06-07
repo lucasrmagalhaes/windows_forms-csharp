@@ -1,16 +1,16 @@
 ﻿namespace CursoWindowsForms
 {
-    partial class Frm_CadastroCliente_UC
+    partial class Frm_CadastroClientes_UC
     {
-        /// <summary>
-        /// Required designer variable.
+        /// <summary> 
+        /// Variável de designer necessária.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
+        /// <summary> 
+        /// Limpar os recursos que estão sendo usados.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código gerado pelo Designer de Componentes
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// <summary> 
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent()
         {
@@ -271,16 +271,15 @@
             // 
             // Txt_RendaFamiliar
             // 
-            this.Txt_RendaFamiliar.Location = new System.Drawing.Point(12, 390);
+            this.Txt_RendaFamiliar.Location = new System.Drawing.Point(12, 399);
             this.Txt_RendaFamiliar.Name = "Txt_RendaFamiliar";
             this.Txt_RendaFamiliar.Size = new System.Drawing.Size(328, 20);
             this.Txt_RendaFamiliar.TabIndex = 24;
             // 
-            // Frm_CadastroCliente_UC
+            // Frm_CadastroClientes_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 424);
             this.Controls.Add(this.Lbl_RendaFamiliar);
             this.Controls.Add(this.Txt_RendaFamiliar);
             this.Controls.Add(this.Lbl_Profissao);
@@ -307,8 +306,8 @@
             this.Controls.Add(this.Txt_NomePai);
             this.Controls.Add(this.Txt_NomeCliente);
             this.Controls.Add(this.Txt_CPF);
-            this.Name = "Frm_CadastroCliente_UC";
-            this.Text = "Cadastro de Clientes";
+            this.Name = "Frm_CadastroClientes_UC";
+            this.Size = new System.Drawing.Size(790, 449);
             this.ResumeLayout(false);
             this.PerformLayout();
 
