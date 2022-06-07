@@ -72,7 +72,7 @@
             this.Txt_CPF.Location = new System.Drawing.Point(507, 149);
             this.Txt_CPF.Name = "Txt_CPF";
             this.Txt_CPF.Size = new System.Drawing.Size(328, 20);
-            this.Txt_CPF.TabIndex = 0;
+            this.Txt_CPF.TabIndex = 6;
             // 
             // Txt_NomeCliente
             // 
@@ -81,7 +81,7 @@
             this.Txt_NomeCliente.Location = new System.Drawing.Point(6, 32);
             this.Txt_NomeCliente.Name = "Txt_NomeCliente";
             this.Txt_NomeCliente.Size = new System.Drawing.Size(830, 20);
-            this.Txt_NomeCliente.TabIndex = 1;
+            this.Txt_NomeCliente.TabIndex = 2;
             // 
             // Txt_NomePai
             // 
@@ -90,7 +90,7 @@
             this.Txt_NomePai.Location = new System.Drawing.Point(5, 71);
             this.Txt_NomePai.Name = "Txt_NomePai";
             this.Txt_NomePai.Size = new System.Drawing.Size(830, 20);
-            this.Txt_NomePai.TabIndex = 2;
+            this.Txt_NomePai.TabIndex = 3;
             // 
             // Txt_NomeMae
             // 
@@ -99,7 +99,7 @@
             this.Txt_NomeMae.Location = new System.Drawing.Point(5, 110);
             this.Txt_NomeMae.Name = "Txt_NomeMae";
             this.Txt_NomeMae.Size = new System.Drawing.Size(830, 20);
-            this.Txt_NomeMae.TabIndex = 3;
+            this.Txt_NomeMae.TabIndex = 4;
             // 
             // Lbl_CPF
             // 
@@ -151,7 +151,7 @@
             this.Txt_Genero.Location = new System.Drawing.Point(5, 149);
             this.Txt_Genero.Name = "Txt_Genero";
             this.Txt_Genero.Size = new System.Drawing.Size(284, 20);
-            this.Txt_Genero.TabIndex = 8;
+            this.Txt_Genero.TabIndex = 5;
             // 
             // Lbl_CEP
             // 
@@ -167,7 +167,7 @@
             this.Txt_CEP.Location = new System.Drawing.Point(7, 31);
             this.Txt_CEP.Name = "Txt_CEP";
             this.Txt_CEP.Size = new System.Drawing.Size(398, 20);
-            this.Txt_CEP.TabIndex = 10;
+            this.Txt_CEP.TabIndex = 7;
             // 
             // Lbl_Logradouro
             // 
@@ -185,7 +185,7 @@
             this.Txt_Logradouro.Location = new System.Drawing.Point(7, 75);
             this.Txt_Logradouro.Name = "Txt_Logradouro";
             this.Txt_Logradouro.Size = new System.Drawing.Size(1272, 20);
-            this.Txt_Logradouro.TabIndex = 12;
+            this.Txt_Logradouro.TabIndex = 8;
             // 
             // Lbl_Complemento
             // 
@@ -201,7 +201,7 @@
             this.Txt_Complemento.Location = new System.Drawing.Point(7, 126);
             this.Txt_Complemento.Name = "Txt_Complemento";
             this.Txt_Complemento.Size = new System.Drawing.Size(328, 20);
-            this.Txt_Complemento.TabIndex = 14;
+            this.Txt_Complemento.TabIndex = 9;
             // 
             // Lbl_Bairro
             // 
@@ -217,7 +217,7 @@
             this.Txt_Bairro.Location = new System.Drawing.Point(342, 126);
             this.Txt_Bairro.Name = "Txt_Bairro";
             this.Txt_Bairro.Size = new System.Drawing.Size(311, 20);
-            this.Txt_Bairro.TabIndex = 16;
+            this.Txt_Bairro.TabIndex = 10;
             // 
             // Lbl_Estado
             // 
@@ -235,7 +235,7 @@
             this.Txt_Estado.Location = new System.Drawing.Point(662, 126);
             this.Txt_Estado.Name = "Txt_Estado";
             this.Txt_Estado.Size = new System.Drawing.Size(617, 20);
-            this.Txt_Estado.TabIndex = 18;
+            this.Txt_Estado.TabIndex = 11;
             // 
             // Lbl_Telefone
             // 
@@ -251,7 +251,7 @@
             this.Txt_Telefone.Location = new System.Drawing.Point(4, 55);
             this.Txt_Telefone.Name = "Txt_Telefone";
             this.Txt_Telefone.Size = new System.Drawing.Size(328, 20);
-            this.Txt_Telefone.TabIndex = 20;
+            this.Txt_Telefone.TabIndex = 12;
             // 
             // Lbl_Profissao
             // 
@@ -269,21 +269,21 @@
             this.Txt_Profissao.Location = new System.Drawing.Point(339, 55);
             this.Txt_Profissao.Name = "Txt_Profissao";
             this.Txt_Profissao.Size = new System.Drawing.Size(936, 20);
-            this.Txt_Profissao.TabIndex = 22;
+            this.Txt_Profissao.TabIndex = 13;
             // 
             // Txt_Codigo
             // 
-            this.Txt_Codigo.Location = new System.Drawing.Point(20, 31);
+            this.Txt_Codigo.Location = new System.Drawing.Point(6, 19);
             this.Txt_Codigo.Name = "Txt_Codigo";
-            this.Txt_Codigo.Size = new System.Drawing.Size(234, 20);
-            this.Txt_Codigo.TabIndex = 27;
+            this.Txt_Codigo.Size = new System.Drawing.Size(263, 20);
+            this.Txt_Codigo.TabIndex = 1;
             // 
             // Grp_Codigo
             // 
             this.Grp_Codigo.Controls.Add(this.Txt_Codigo);
-            this.Grp_Codigo.Location = new System.Drawing.Point(6, 23);
+            this.Grp_Codigo.Location = new System.Drawing.Point(3, 3);
             this.Grp_Codigo.Name = "Grp_Codigo";
-            this.Grp_Codigo.Size = new System.Drawing.Size(275, 69);
+            this.Grp_Codigo.Size = new System.Drawing.Size(275, 52);
             this.Grp_Codigo.TabIndex = 28;
             this.Grp_Codigo.TabStop = false;
             this.Grp_Codigo.Text = "groupBox1";
@@ -300,7 +300,7 @@
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_Genero);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_CPF);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_CPF);
-            this.Grp_DadosPessoais.Location = new System.Drawing.Point(6, 98);
+            this.Grp_DadosPessoais.Location = new System.Drawing.Point(3, 61);
             this.Grp_DadosPessoais.Name = "Grp_DadosPessoais";
             this.Grp_DadosPessoais.Size = new System.Drawing.Size(842, 176);
             this.Grp_DadosPessoais.TabIndex = 29;
@@ -319,7 +319,7 @@
             this.Grp_Endereco.Controls.Add(this.Lbl_Bairro);
             this.Grp_Endereco.Controls.Add(this.Txt_Estado);
             this.Grp_Endereco.Controls.Add(this.Lbl_Estado);
-            this.Grp_Endereco.Location = new System.Drawing.Point(6, 280);
+            this.Grp_Endereco.Location = new System.Drawing.Point(3, 243);
             this.Grp_Endereco.Name = "Grp_Endereco";
             this.Grp_Endereco.Size = new System.Drawing.Size(835, 159);
             this.Grp_Endereco.TabIndex = 30;
@@ -328,7 +328,7 @@
             // 
             // Grp_Outros
             // 
-            this.Grp_Outros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.Grp_Outros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Grp_Outros.Controls.Add(this.Lbl_RendaFamiliar);
             this.Grp_Outros.Controls.Add(this.textBox3);
@@ -336,7 +336,7 @@
             this.Grp_Outros.Controls.Add(this.Lbl_Telefone);
             this.Grp_Outros.Controls.Add(this.Txt_Profissao);
             this.Grp_Outros.Controls.Add(this.Lbl_Profissao);
-            this.Grp_Outros.Location = new System.Drawing.Point(6, 459);
+            this.Grp_Outros.Location = new System.Drawing.Point(3, 406);
             this.Grp_Outros.Name = "Grp_Outros";
             this.Grp_Outros.Size = new System.Drawing.Size(835, 153);
             this.Grp_Outros.TabIndex = 31;
@@ -368,7 +368,7 @@
             this.Controls.Add(this.Grp_DadosPessoais);
             this.Controls.Add(this.Grp_Codigo);
             this.Name = "Frm_CadastroClientes_UC";
-            this.Size = new System.Drawing.Size(851, 627);
+            this.Size = new System.Drawing.Size(851, 570);
             this.Grp_Codigo.ResumeLayout(false);
             this.Grp_Codigo.PerformLayout();
             this.Grp_DadosPessoais.ResumeLayout(false);
