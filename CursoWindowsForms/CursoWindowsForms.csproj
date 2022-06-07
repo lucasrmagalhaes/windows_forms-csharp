@@ -271,6 +271,7 @@
     <Content Include="Imagens\DeleteLeft.png" />
     <Content Include="Imagens\DeleteRight.png" />
     <Content Include="Imagens\DeleteTab.png" />
+    <Content Include="Imagens\ExcluirBarra.png" />
     <Content Include="Imagens\Frm_DemonstracaoKey.ico" />
     <Content Include="Imagens\Frm_DemonstracaoKey.png" />
     <Content Include="Imagens\Frm_HelloWorld.ico" />
@@ -287,6 +288,7 @@
     <Content Include="Imagens\icons8-question-mark-96.ico" />
     <Content Include="Imagens\icons8-question-mark-96.png" />
     <Content Include="Imagens\key.png" />
+    <Content Include="Imagens\LimparBarra.png" />
     <Content Include="Imagens\money.png" />
     <Content Include="Imagens\user.png" />
   </ItemGroup>
